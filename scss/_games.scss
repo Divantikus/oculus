@@ -1,5 +1,4 @@
 .games {
-  // padding: 0 0 100px 0;
   margin: 0 0 100px 0;
   &__container {
   }
@@ -43,16 +42,7 @@
     transition: 0.2s;
     &:hover {
       transform: translateY(-5px);
-      //   box-shadow: 0 0 10px 5px purple;
-      //   background-image: linear-gradient(
-      //     0deg,
-      //     rgba(34, 195, 117, 1) 0%,
-      //     rgba(253, 251, 45, 1) 100%
-      //   );
     }
-  }
-
-  &__content-container {
   }
 
   &__card {
@@ -94,8 +84,6 @@
     margin: 0 0 10px 0;
   }
   &__link {
-    // display: inline;
-    // flex: 0 1;
     color: #bc10d8;
     transition: 0.2s;
     &:hover {
@@ -103,11 +91,3 @@
     }
   }
 }
-// .container {
-// }
-// .title {
-// }
-// .grid-container {
-// }
-// .catchy-text {
-// }

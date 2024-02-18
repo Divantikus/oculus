@@ -1,7 +1,5 @@
 .features {
   padding: 100px 0;
-  &__container {
-  }
 
   &__titles {
     display: flex;
@@ -55,7 +53,6 @@
 
   &__img-container {
     grid-area: img;
-    // max-width: 600px;
     padding: 0 20px 0 0;
     border-right: 1px solid rgb(202, 202, 214);
   }
@@ -94,9 +91,6 @@
     justify-content: end;
     align-items: flex-start;
     padding: 10px 9px;
-  }
-
-  &__video-img {
   }
 
   &__video-button {

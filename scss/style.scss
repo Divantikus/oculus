@@ -13,10 +13,11 @@
 @import "_notifications";
 @import "_footer";
 
+html,
 body {
   font-family: "Helvetica";
   color: $maintextcolor;
-  min-width: 1920px;
+  min-width: 1200px;
 }
 .hide {
   display: none;
