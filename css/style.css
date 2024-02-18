@@ -85,15 +85,15 @@ h6 {
 
 @font-face {
   font-family: "Helvetica";
-  src: url(../fonts/Helvetica.ttf);
-  src: url(../fonts/Helvetica.woff2) format("embedded-opentype");
+  src: url(../fonts/Helvetica.eot);
+  src: url(../fonts/Helvetica.eot) format("embedded-opentype"), url(../fonts/Helvetica.woff2) format("woff2"), url(../fonts/Helvetica.ttf) format("truetype"), url(../fonts/Helvetica.svg) format("svg");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Helvetica";
-  src: url(../fonts/Helvetica-Bold.ttf);
-  src: url(../fonts/Helvetica-Bold.woff2) format("embedded-opentype");
+  src: url(../fonts/Helvetica-Bold.eot);
+  src: url(../fonts/Helvetica-Bold.eot) format("embedded-opentype"), url(../fonts/Helvetica-Bold.woff2) format("woff2"), url(../fonts/Helvetica-Bold.ttf) format("truetype"), url(../fonts/Helvetica-Bold.svg) format("svg");
   font-weight: 700;
   font-style: normal;
 }
@@ -477,6 +477,7 @@ h6 {
   object-fit: cover;
   display: block;
 }
+
 .promo {
   margin: 0 0 100px 0;
 }
@@ -655,11 +656,12 @@ h6 {
   padding: 20px 0;
   border: 1px solid rgb(202, 202, 214);
 }
+
 html,
 body {
   font-family: "Helvetica";
   color: rgb(92, 92, 94);
-  min-width: 1200px;
+  min-width: 1220px;
 }
 
 .hide {
