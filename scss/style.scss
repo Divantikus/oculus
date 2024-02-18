@@ -1,0 +1,26 @@
+@import "_reset";
+@import "_fonts";
+@import "_variables";
+@import "_blocks";
+@import "_header";
+@import "_intoduction";
+@import "_features";
+@import "_games";
+@import "_buy";
+@import "_set";
+@import "_promo";
+@import "_accessories";
+@import "_notifications";
+@import "_footer";
+
+body {
+  font-family: "Helvetica";
+  color: $maintextcolor;
+  min-width: 1920px;
+}
+.hide {
+  display: none;
+}
+.active-color {
+  color: #000000;
+}
