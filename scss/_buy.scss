@@ -26,7 +26,7 @@
     font-size: 400px;
     font-weight: 700;
     position: absolute;
-    line-height: 0.8;
+    line-height: 1;
     z-index: -1;
     background: linear-gradient(
       180deg,
@@ -43,7 +43,7 @@
   &__img-container {
     max-width: 345px;
     display: block;
-    margin: 0 auto 30px auto;
+    margin: 30px auto 30px auto;
     animation: fly 1.5s ease alternate infinite;
   }
 
