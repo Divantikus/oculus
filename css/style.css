@@ -96,9 +96,9 @@ h6 {
   font-style: normal;
 }
 .container {
-  width: 1920px;
+  width: 1220px;
   margin: 0 auto;
-  padding: 0 360px;
+  padding: 0 10px;
 }
 
 .main-btn {
@@ -397,6 +397,7 @@ h6 {
 }
 .buy {
   text-align: center;
+  overflow: hidden;
   position: relative;
   margin: 0 0 100px 0;
 }
@@ -653,7 +654,7 @@ html,
 body {
   font-family: "Helvetica";
   color: rgb(92, 92, 94);
-  min-width: 1920px;
+  min-width: 1220px;
 }
 
 .hide {
