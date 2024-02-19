@@ -26,7 +26,7 @@
     font-size: 400px;
     font-weight: 700;
     position: absolute;
-    line-height: 0.8;
+    line-height: 0.9;
     z-index: -1;
     background: linear-gradient(
       180deg,
@@ -36,7 +36,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    // text-fill-color: transparent;
     opacity: 0.1;
     animation: running-text 5s linear 0.3s infinite;
   }

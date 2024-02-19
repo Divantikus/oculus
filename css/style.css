@@ -186,13 +186,13 @@ h6 {
 }
 
 .intoduction {
-  min-height: calc(100vh - 81px);
+  min-height: 1000px;
   background: url("../img/intoduction/phone.jpg") no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
 .intoduction__title {
-  padding: 12% 0 0 0;
+  padding: 230px 0 0 0;
   font-size: 96px;
   line-height: 110px;
   margin: 0 0 10px 0;
@@ -406,7 +406,7 @@ h6 {
   font-size: 400px;
   font-weight: 700;
   position: absolute;
-  line-height: 0.8;
+  line-height: 0.9;
   z-index: -1;
   background: linear-gradient(180deg, rgb(188, 16, 216), rgba(80, 0, 250, 0.93));
   -webkit-background-clip: text;
