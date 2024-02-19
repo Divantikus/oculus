@@ -301,7 +301,7 @@ h6 {
 }
 
 .games {
-  margin: 0 0 70px 0;
+  margin: 0 0 40px 0;
 }
 .games__title {
   margin: 0 0 50px 0;
@@ -419,7 +419,7 @@ h6 {
 .buy__img-container {
   max-width: 345px;
   display: block;
-  margin: 30px auto 30px auto;
+  margin: 60px auto 30px auto;
   animation: fly 1.5s ease alternate infinite;
 }
 .buy__img {
